@@ -1,0 +1,9 @@
+{
+  "name": "altug-yapi-monorepo",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build"
+  }
+}
