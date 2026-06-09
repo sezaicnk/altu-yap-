@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install MongoDB dependency",
+			"type": "shell",
+			"command": "npm install mongodb --save",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
